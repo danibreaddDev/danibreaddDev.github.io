@@ -1,0 +1,20 @@
+---
+
+const { frontmatter } = Astro.props;
+import BaseLayout from "./BaseLayout.astro";
+---
+<BaseLayout title={frontmatter.title}>
+      <slot/>
+</BaseLayout>
+
+
+<style is:inline>
+
+    body {
+        margin: 0 auto;
+        max-width: 100%;
+        max-width: 80ch;
+    }
+
+    
+</style>

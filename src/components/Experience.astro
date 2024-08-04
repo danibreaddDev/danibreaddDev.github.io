@@ -1,0 +1,31 @@
+---
+import Company from "./Company.astro";
+import redi from "../assets/logoredi.svg";
+import datium from "../assets/datium.png";
+import php from "../assets/php.svg";
+import javascript from "../assets/javascript.svg";
+import bootstrap from "../assets/bootstrap.svg";
+import jquery from "../assets/jquery.svg";
+import workbench from "../assets/worbenchsql.svg";
+import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import bash from "../assets/bash.svg";
+import speedtest from "../assets/speedtest.svg";
+---
+
+<div class=" flex flex-wrap lg:grid lg:grid-cols-1 gap-5 mt-5">
+    <Company
+        company="Redi for You"
+        description="Desarolle una herramienta de monitoreo de red."
+        img={redi.src}
+        date="2021- 3 meses"
+        technologies={[php.src,html.src,css.src,bash.src,speedtest.src]}
+    />
+    <Company
+        company="Datium"
+        description="Resolución de incidencias y Desarrollo del portal Web."
+        img={datium.src}
+        date="2021- 3 meses"
+        technologies={[php.src,javascript.src,bootstrap.src,jquery.src,workbench.src]}
+    />
+</div>

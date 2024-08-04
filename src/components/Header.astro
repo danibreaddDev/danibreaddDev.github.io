@@ -1,0 +1,20 @@
+---
+import Navigation from "./Navigation.astro";
+import DevName from "./DevName.astro";
+---
+
+<header>
+    <div
+        class="fixed top-0 flex justify-center items-center mt-5 gap-5 bg-white rounded-lg ring-1 ring-slate-900/20 shadow-lg"
+    >
+        <DevName />
+        <Navigation />
+    </div>
+</header>
+<style is:inline>
+    header {
+        margin: 0 auto;
+        max-width: 100%;
+        max-width: 35ch;
+    }
+</style>

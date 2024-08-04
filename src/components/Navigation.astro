@@ -1,0 +1,20 @@
+---
+import ThemeIcon from "./ThemeIcon.astro";
+import Linkedin from "./socials/Linkedin.astro";
+import Github from "./socials/Github.astro";
+const mostrar = false;
+---
+
+<nav class="flex gap-3">
+    { mostrar && <ThemeIcon/>}
+    <button class=" hover:bg-amber-300 rounded-lg p-1 hover:transition">
+        <a href="">
+            <Github/>
+        </a>
+    </button>
+    <button class=" hover:bg-amber-300 rounded-lg p-1">
+        <a href="">
+            <Linkedin/>
+        </a>
+    </button>
+</nav>
