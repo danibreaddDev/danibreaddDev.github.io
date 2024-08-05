@@ -11,13 +11,13 @@ const { img, company, description, date, technologies } = Astro.props;
 
 <div class="mt-10 p-5 lg:grid lg:grid-cols-1">
     <div
-        class="flex flex-col p-5 lg:p-10bg-white rounded-lg ring-1 ring-slate-900/20 shadow-lg hover:ring-slate-900 hover:transition duration-150"
+        class="flex flex-col p-5 lg:p-10 bg-white dark:bg-transparent rounded-lg ring-1 dark:ring-gray-100 ring-slate-900/20 shadow-lg"
     >
         <img src={img} alt="Empresa" class="aspect-square h-24 w-24 object-contain" />
 
-        <p class="text-gray-700 font-medium">{description}</p>
-        <p>{date}</p>
-        <div class="flex gap-2 mt-2">
+        <p class="text-gray-700 dark:text-gray-50 font-medium">{description}</p>
+        <p class="dark:text-gray-100">{date}</p>
+        <div class="flex flex-wrap gap-2 mt-2">
             {
                 technologies.map((technology) => (
                     <img class="w-8 h-8" src={technology} title="Tecnologia" />

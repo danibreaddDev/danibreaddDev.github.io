@@ -1,20 +1,26 @@
 ---
 import Navigation from "./Navigation.astro";
+import ThemeIcon from "./ThemeIcon.astro";
 import DevName from "./DevName.astro";
 ---
 
 <header>
-    <div
-        class="fixed top-0 flex justify-center items-center mt-5 gap-5 bg-white rounded-lg ring-1 ring-slate-900/20 shadow-lg"
-    >
-        <DevName />
-        <Navigation />
+    <div class="fixed top-0 flex gap-3">
+        <ThemeIcon />
+
+        <div
+            class=" flex justify-center items-center mt-5 gap-5 bg-white rounded-lg ring-1 ring-slate-900/20 dark:bg-zinc-900 shadow-lg"
+        >
+            <DevName />
+            <Navigation />
+        </div>
     </div>
 </header>
+
 <style is:inline>
     header {
         margin: 0 auto;
         max-width: 100%;
-        max-width: 35ch;
+        max-width: 45ch;
     }
 </style>

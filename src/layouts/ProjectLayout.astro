@@ -4,7 +4,9 @@ import BaseLayout from "./BaseLayout.astro";
 ---
 
 <BaseLayout title={frontmatter.title}>
-    <slot />
+    <div class="container mt-20 p-5 justify-center items-center">
+        <slot />
+    </div>
 </BaseLayout>
 
 <style is:inline>
@@ -12,5 +14,11 @@ import BaseLayout from "./BaseLayout.astro";
         margin: 0 auto;
         max-width: 100%;
         max-width: 80ch;
+    }
+    img{
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 2rem;
     }
 </style>
