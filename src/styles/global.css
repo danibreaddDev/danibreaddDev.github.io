@@ -3,7 +3,7 @@
 
 /*variables*/
 :root {
-  --dark-background: #20252C;
+  --dark-background: #0b0b0c;
 }
 
 
@@ -22,12 +22,6 @@ body{
 
 }
 
-/*modo dark*/
-html.dark {
-  background-color: var(--dark-background);
-  color: #fff;
-}
-
-.dark a {
-  color: #fff;
+.dark{
+  background: var(--dark-background);
 }

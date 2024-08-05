@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css";
+
 import Presentation from "../components/about/Presentation.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Project from "../components/Project.astro";
@@ -14,7 +14,7 @@ const allProjects = await Astro.glob("../pages/projects/*.md");
     <Presentation />
     <div id="SectionInfo" class="">
         <section>
-            <h1 class="text-center lg:text-left font-bold text-3xl mt-20">
+            <h1 class="text-center dark:text-white lg:text-left font-bold text-3xl mt-20">
                 Proyectos
             </h1>
             <div class="flex flex-col justify-center items-center">
@@ -32,19 +32,19 @@ const allProjects = await Astro.glob("../pages/projects/*.md");
             </div>
         </section>
         <section>
-            <h1 class="text-center lg:text-left font-bold text-3xl mt-20">
+            <h1 class="text-center dark:text-white lg:text-left font-bold text-3xl mt-20">
                 Sobre Mí
             </h1>
             <About />
         </section>
         <section>
-            <h1 class="text-center lg:text-left font-bold text-3xl mt-20">
+            <h1 class="text-center dark:text-white lg:text-left font-bold text-3xl mt-20">
                 Experiencia
             </h1>
             <Experience />
         </section>
         <section>
-            <h1 class="text-center lg:text-left font-bold text-3xl mt-20">
+            <h1 class="text-center dark:text-white lg:text-left font-bold text-3xl mt-20">
                 Tecnologías
             </h1>
             <Tools />
