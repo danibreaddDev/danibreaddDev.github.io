@@ -1,9 +1,9 @@
 ---
-const { frontmatter } = Astro.props;
+const { title } = Astro.props;
 import BaseLayout from "./BaseLayout.astro";
 ---
 
-<BaseLayout title={frontmatter.title}>
+<BaseLayout title={title}>
     <div class="container mt-20 p-5 justify-center items-center">
         <slot />
     </div>
