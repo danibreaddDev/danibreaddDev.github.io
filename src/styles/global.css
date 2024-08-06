@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
-/*variables*/
+/* Variables de tema */
 :root {
-  --dark-background: #0b0b0c;
+  --background-light: white;
+  --background-dark: #0b0b0c;
 }
 
+body {
+  font-family: "Roboto Mono", "DejaVu Sans Mono", "Consolas", monospace;
+  background: var(--background-light);
+}
 
-body{
-  font-family:"Roboto Mono","DejaVu Sans Mono","Consolas",monospace;
+html[data-theme="dark"] body {
+  background: var(--background-dark);
 }
 
 * {
@@ -17,11 +21,5 @@ body{
 
 #SectionInfo {
   margin: 0 auto;
-  max-width: 100%;
   max-width: 80ch;
-
-}
-
-.dark{
-  background: var(--dark-background);
 }
