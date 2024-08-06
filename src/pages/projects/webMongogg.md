@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'Aplicación Web MongoGG.'
+title: 'Web MongoGG.'
 pubDate: 2024-07-01
 description: 'Aplicación web que realicé como TFG en DAM.'
 author: 'Daniel Pamblanco Mestre'
