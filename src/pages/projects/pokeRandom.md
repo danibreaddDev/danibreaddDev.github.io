@@ -1,11 +1,13 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'Aplicación Web MongoGG.'
+title: 'Aplicación Pokedex'
 pubDate: 2024-07-01
-description: 'Aplicación web que realicé como TFG en DAM.'
+description: 'Web que te permite generar un pokemon aleatorio a través de pokeApi.'
 author: 'Daniel Pamblanco Mestre'
 image:
-    url: '../../images/mongoGG.png'
+    url: 'src\images\DAYNER.png'
     alt: 'logo de la empresa.'
 tags: ["astro", "bloguear", "aprender en público"]
 ---
+
+

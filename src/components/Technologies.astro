@@ -1,10 +1,9 @@
 ---
-import { Image } from "astro:assets";
-import code from "../assets/code.svg";
-import monitor from "../assets/monitor.svg";
+import ScreenIcon from "./icons/Screen.astro";
+import CodeIcon from "./icons/Code.astro";
 import Technology from "./Technologies/Technology.astro";
-import DATABASE from "../assets/database.svg";
-import SERVER from "../assets/server.svg";
+import DatabaseIcon from "./icons/Database.astro";
+import ServerIcon from "./icons/Server.astro";
 ---
 
 <div class="mt-10 justify-center items-center">
@@ -12,11 +11,13 @@ import SERVER from "../assets/server.svg";
         <p class="text-center font-semibold text-xl dark:text-white">
             Desarrollador de Software
         </p>
-        <Image src={code} alt="codigo icono" />
-        <Image src={monitor} alt="monitor icono" />
+        <CodeIcon />
+        <ScreenIcon />
     </div>
 
-    <p class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10">
+    <p
+        class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10"
+    >
         Lenguajes de Programación
     </p>
     <div class="flex flex-wrap gap-2 mt-5 justify-center lg:justify-normal">
@@ -25,7 +26,9 @@ import SERVER from "../assets/server.svg";
         <Technology name="Java" />
         <Technology name="C#" />
     </div>
-    <p class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10">
+    <p
+        class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10"
+    >
         Desarrollo Front-End
     </p>
     <div class="flex flex-wrap gap-2 mt-5 justify-center lg:justify-normal">
@@ -33,20 +36,26 @@ import SERVER from "../assets/server.svg";
         <Technology name="CSS" />
         <Technology name="Astro" />
     </div>
-    <p class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10">
+    <p
+        class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10"
+    >
         Desarrollo Back-End
     </p>
     <div class="flex flex-wrap gap-2 mt-5 justify-center lg:justify-normal">
         <Technology name="Symfony" />
         <Technology name="NodeJS" />
     </div>
-    <p class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10">
+    <p
+        class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10"
+    >
         Desarrollo de Videojuegos
     </p>
     <div class="flex flex-wrap gap-2 mt-5 justify-center lg:justify-normal">
         <Technology name="Unity" />
     </div>
-    <p class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10">
+    <p
+        class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10"
+    >
         Bases de Datos
     </p>
     <div class="flex flex-wrap gap-2 mt-5 justify-center lg:justify-normal">
@@ -55,7 +64,9 @@ import SERVER from "../assets/server.svg";
         <Technology name="Astro DB" />
         <Technology name="Oracle DB" />
     </div>
-    <p class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10">
+    <p
+        class="text-center lg:text-left text-gray-700 dark:text-gray-300 font-medium mt-10"
+    >
         Herramientas
     </p>
     <div class="flex flex-wrap gap-2 mt-5 justify-center lg:justify-normal">
@@ -67,11 +78,11 @@ import SERVER from "../assets/server.svg";
         <Technology name="PHPMyAdmin" />
     </div>
     <div class="flex flex-wrap gap-2 mt-10 justify-center items-center">
-        <p class="text-center  font-semibold text-xl dark:text-white">
+        <p class="text-center font-semibold text-xl dark:text-white">
             Administrador de Sistemas
         </p>
-        <Image src={DATABASE} alt="codigo icono" />
-        <Image src={SERVER} alt="monitor icono" />
+        <DatabaseIcon />
+        <ServerIcon/>
     </div>
     <div class="flex flex-wrap gap-2 mt-10 justify-center lg:justify-normal">
         <Technology name="Ticketing" />
