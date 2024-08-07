@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: 'Web MongoGG.'
 pubDate: 2024-07-01
-description: 'Aplicación web que realicé como TFG en DAM.'
+description: 'Aplicación web que realicé como trabajo final de grado en DAM.'
 author: 'Daniel Pamblanco Mestre'
 urlGit: 'https://github.com/danibreaddDev/MongoGG'
 urlDemo: ''
