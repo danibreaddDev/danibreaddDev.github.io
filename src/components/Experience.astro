@@ -1,4 +1,6 @@
 ---
+
+const { img, company, description, date, technologies } = Astro.props;
 import Company from "./Company.astro";
 import redi from "../assets/logoredi.svg";
 import datium from "../assets/datium.png";
@@ -13,7 +15,7 @@ import bash from "../assets/bash.svg";
 import speedtest from "../assets/speedtest.svg";
 ---
 
-<div class=" flex flex-wrap lg:grid lg:grid-cols-1 gap-5 mt-5">
+ <div class="mt-10">
     <Company
         company="Datium"
         description="Resolución de incidencias y Desarrollo del portal Web."
@@ -29,3 +31,4 @@ import speedtest from "../assets/speedtest.svg";
     technologies={[php.src,html.src,css.src,bash.src,speedtest.src]}
 />
 </div>
+
