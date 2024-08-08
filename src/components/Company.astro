@@ -8,14 +8,11 @@ interface Props {
 }
 const { img, company, description, date, technologies } = Astro.props;
 ---
-
-<ol class="relative border-s border-gray-200 dark:border-gray-700">
-
-    <li class="relative mb-10 ms-4">
-
+<ol class="border-s border-slate-900/20 dark:border-gray-700 p-4">
+    <li class="mb-10">
         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">{date}</time>
         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">{company}</h3>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{description}</p>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 text-wrap">{description}</p>
         <div class="flex flex-wrap gap-2 mt-2">
             {technologies.map((tech) => (
                 <img class="w-8 h-8" src={tech} title="Tecnologia" />
