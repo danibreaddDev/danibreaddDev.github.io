@@ -20,11 +20,12 @@ const allProjects = await Astro.glob("../pages/projects/*.md");
                 Proyectos
             </h3>
             <div
-                class="flex flex-col  justify-center items-center w-auto gap-5 xl:grid xl:grid-cols-2 sm:grid sm:grid-cols-2"
+                class="flex flex-col justify-center items-center w-auto gap-5 xl:grid xl:grid-cols-2 sm:grid sm:grid-cols-2"
             >
                 {
                     allProjects.map((project) => (
                         <Project
+                            url={project.url}
                             urlGit={project.frontmatter.urlGit}
                             urlDemo={project.frontmatter.urlDemo}
                             title={project.frontmatter.title}
