@@ -47,6 +47,7 @@ technologies:
       <li><strong>ASTRO</strong> - Framework para generar sitios estáticos.</li>
       <li><strong>Bootstrap</strong> - Biblioteca de CSS para diseño responsivo.</li>
       <li><strong>JavaScript</strong> - Lenguaje de programación para funcionalidades interactivas.</li>
+      <li><strong>LuciaAUTH</strong> - Libreria para autenticación de usuarios y sesiones.</li>
     </ul>
   </div>
   
@@ -60,6 +61,12 @@ technologies:
   
   <!-- Autor -->
   <p class="text-right text-sm dark:text-gray-50">Autor: Daniel Pamblanco Mestre</p>
+  <p class="text-center text-sm dark:text-gray-50 mt-5">DEMO:</p>
+  <video controls class="mt-5">
+  <source src="/demoDayner.mkv" type="video/mp4">
+  </video>
+
+  
 </div>
 
 
