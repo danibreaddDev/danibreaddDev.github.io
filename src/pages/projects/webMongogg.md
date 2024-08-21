@@ -53,4 +53,10 @@ MongoGG  </h1>
   
   <!-- Autor -->
   <p class="text-right text-sm dark:text-gray-50">Autor: Daniel Pamblanco Mestre</p>
+   <video controls class="mt-5">
+  <source src="/web.mp4" type="video/mp4">
+  </video>
+  <video controls class="mt-5">
+  <source src="/autenticacion.mkv" type="video/mp4">
+  </video>
 </div>
