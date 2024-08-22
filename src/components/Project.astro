@@ -1,15 +1,12 @@
 ---
 const { url, title, urlGit, description, urlDemo, technologies } = Astro.props;
-import SvgIcon from "./icons/SvgIcon.astro";
-
-import ArrowIcon from "./icons/Arrow.astro";
 ---
 
 <div
-    class="mt-10 p-5 space-y-3 ring-1 ring-gray-300 dark:ring-gray-100 rounded-lg hover:shadow-xl transition-shadow duration-100 dark:hover:shadow-md dark:hover:shadow-gray-500"
+    class="p-4 space-y-3 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400"
 >
-    <div class="flex w-full items-center justify-between">
-        <div class="flex group items-center space-x-[10px]">
+    <div class="flex flex-wrap w-full items-center justify-between">
+        <div class="flex group items-center space-x-[5px]">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -29,7 +26,7 @@ import ArrowIcon from "./icons/Arrow.astro";
                     y2="9"></line></svg
             >
             <a
-                class="group text-slate-900 text-sm font-semibold dark:text-gray-300 decoration-dashed underline-offset-[5px] hover:underline"
+                class="group text-neutral-700 text-sm font-semibold dark:text-neutral-100 decoration-dashed underline-offset-[5px] hover:underline"
                 href={url}
             >
                 {title}
@@ -39,7 +36,7 @@ import ArrowIcon from "./icons/Arrow.astro";
                 height="13"
                 stroke="currentColor"
                 stroke-width="2"
-                class="lucide-icon lucide lucide-arrow-up-right opacity-50 duration-200 group-hover:translate-x-[1.5px] group-hover:opacity-100 stroke-black dark:stroke-white"
+                class="lucide-icon lucide lucide-arrow-up-right opacity-50 duration-200 group-hover:translate-x-[1.5px] group-hover:opacity-100 font-semibold stroke-neutral-700 dark:stroke-neutral-100"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -71,11 +68,13 @@ import ArrowIcon from "./icons/Arrow.astro";
     </div>
 
     <p
-        class="text-slate-500 group-hover:text-gray-500 text-sm dark:text-gray-200"
+        class="text-neutral-600 text-sm dark:text-neutral-300"
     >
         {description}
     </p>
-    <div class="flex justify-start gap-2 items-center">
-        {technologies.map((tech) => <SvgIcon svgIcon={tech} />)}
+    <div class="flex flex-wrap justify-start gap-2 items-center">
+        {technologies.map((tech) => (
+            <p class="text-sm px-2 py-1 rounded-md border-neutral-500 bg-neutral-200/50 text-neutral-700 dark:border-neutral-800 dark:bg-neutral-800/60 dark:text-neutral-300">{tech}</p>
+        ))}
     </div>
 </div>
