@@ -2,7 +2,7 @@
 /* Variables de tema */
 :root {
   --background-light: white;
-  --background-dark: #0b0b0c;
+  --background-dark: rgb(23 23 23);;
 }
 
 body {
@@ -18,7 +18,4 @@ html[data-theme="dark"] body {
   box-sizing: border-box;
 }
 
-#SectionInfo {
-  margin: 0 auto;
-  max-width: 100ch;
-}
+

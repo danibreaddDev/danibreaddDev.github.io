@@ -5,7 +5,7 @@ pubDate: 2024-07-01
 description: 'Videojuego realizado en la asignatura de Programación y Desarrollo Multimedia'
 author: 'Daniel Pamblanco Mestre'
 urlGit: ''
-urlDemo: 'https://itch.io/'
+urlDemo: ''
 technologies:
   - |
     <svg xmlns="http://www.w3.org/2000/svg" class="dark:fill-white" viewBox="0 0 50 50">
