@@ -28,6 +28,9 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
                 </div>
     <p class="text-sm text-neutral-600 dark:text-neutral-300">A modern, user-friendly website to boost online visibility and customer interaction.
     Administrators will have access to a secure control panel to create, manage, and track promotional campaigns and advertisements.</p>
+     <div class="flex justify-center">
+    <img class="w-[300px] sm:w-[400px] lg:w-[500px] rounded hover:transition duration-75 hover:scale-105" src="/DAYNER.png"alt="portada"/>
+    </div>
     <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
