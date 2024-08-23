@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/ProjectLayout.astro
-title: 'Web MongoGG.'
+title: 'MongoGG Web'
 pubDate: 2024-07-01
 description: 'Web application that I made as a final project for my degree in DAM.'
 author: 'Daniel Pamblanco Mestre'
 urlGit: 'https://github.com/danibreaddDev/MongoGG'
 urlDemo: ''
-technologies: ["Symfony","Javascript","Twig"]
+technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
 ---
 
 
