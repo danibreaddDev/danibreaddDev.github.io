@@ -12,7 +12,7 @@ technologies: ["Java","JavaFX","SceneBuilder"]
   <div class="flex flex-col space-y-5">
   <div class="group flex space-x-1 items-center">
     <a class="text-xl text-neutral-700 dark:text-neutral-200 decoration-solid underline-offset-[5px] hover:underline" href="https://github.com/danibreaddDev/Redes-JavaFX"
-    target="_blank">JavaFX Aplication</a>
+    target="_blank">JavaFX Application</a>
     <svg
                 width="13"
                 height="13"
@@ -27,9 +27,6 @@ technologies: ["Java","JavaFX","SceneBuilder"]
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
     <p class="text-sm text-neutral-600 dark:text-neutral-300">Application that allows access to different social networks through an integrated browser. User Register and Login.</p>
-    <div class="flex justify-center">
-    <img class="rounded hover:transition duration-75 hover:scale-105" src="/javafx.png"alt="portada"/>
-    </div>
     <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->

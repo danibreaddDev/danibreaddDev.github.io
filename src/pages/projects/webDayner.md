@@ -26,7 +26,8 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
-    <p class="text-sm text-neutral-600 dark:text-neutral-300">Web application developed as a final project for my degree in DAM. Do it for gamers to check their stats in diferents videogames and check information about games. we can save the names for next searchs.</p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-300">A modern, user-friendly website to boost online visibility and customer interaction.
+    Administrators will have access to a secure control panel to create, manage, and track promotional campaigns and advertisements.</p>
     <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
