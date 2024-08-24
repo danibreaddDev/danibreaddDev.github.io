@@ -5,11 +5,13 @@ interface Props {
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { getLangFromUrl } from '../i18n/util.js';
 import { ViewTransitions } from "astro:transitions";
 const { title } = Astro.props;
+const lang = getLangFromUrl(Astro.url.pathname);
 ---
 
-<html lang="en" transition:animate="fade">
+<html lang={lang} transition:animate="fade">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/code.svg" />
@@ -33,9 +35,14 @@ const { title } = Astro.props;
   </head>
   <body class="min-h-screen scroll-smooth">
     <main class="relative min-h-screen flex flex-col p-5 items-center">
-    <Header />
-    <slot />
-    <Footer />
-  </main>
+      <Header />
+      <div class="flex justify-center items-center gap-2 mt-20">
+        <a href="/es" class="text-black">ES</a>
+        <a href="/en">ENG</a>
+      </div>
+
+      <slot />
+      <Footer />
+    </main>
   </body>
 </html>

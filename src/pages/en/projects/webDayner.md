@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+layout: ../../../layouts/ProjectLayout.astro
 title: 'DAYNER PEDRALBA S.L Web'
 pubDate: 2024-07-01
 description: 'First web application as FreeLance for the Pedralba service station.'

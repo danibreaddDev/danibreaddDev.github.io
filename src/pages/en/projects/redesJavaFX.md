@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+layout: ../../../layouts/ProjectLayout.astro
 title: 'JAVA-FX App'
 pubDate: 2024-07-01
 description: 'Application that allows access to different social networks through an integrated browser.'

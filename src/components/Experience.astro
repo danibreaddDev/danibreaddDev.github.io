@@ -1,5 +1,7 @@
 ---
-
+interface Props {
+    idioma: string
+}
 import Company from "./Company.astro";
 import redi from "../assets/logoredi.svg";
 import datium from "../assets/datium.png";
@@ -12,22 +14,53 @@ import html from "../assets/html.svg";
 import css from "../assets/css.svg";
 import bash from "../assets/bash.svg";
 import speedtest from "../assets/speedtest.svg";
+const companies = {
+  es: [
+    {
+      company: "Datium",
+      description: "Resolución de incidentes y desarrollo de portal web.",
+      img: datium.src,
+      date: "2024 - 4 Meses",
+      technologies: [php.src, javascript.src, bootstrap.src, jquery.src, workbench.src],
+    },
+    {
+      company: "Redi for You",
+      description: "Desarrollo de herramienta de monitoreo de red.",
+      img: redi.src,
+      date: "2021 - 4 Meses",
+      technologies: [php.src, html.src, css.src, bash.src, speedtest.src],
+    },
+  ],
+  en: [
+    {
+      company: "Datium",
+      description: "Incident resolution and Web portal development.",
+      img: datium.src,
+      date: "2024 - 4 Months",
+      technologies: [php.src, javascript.src, bootstrap.src, jquery.src, workbench.src],
+    },
+    {
+      company: "Redi for You",
+      description: "Developing a network monitoring tool.",
+      img: redi.src,
+      date: "2021 - 4 Months",
+      technologies: [php.src, html.src, css.src, bash.src, speedtest.src],
+    },
+  ],
+};
+
+const { idioma } = Astro.props;
 ---
-<ol class="relative border-s border-gray-200 dark:border-gray-700">                  
-    <Company
-        company="Datium"
-        description="Incident resolution and Web portal development."
-        img={datium.src}
-        date="2024 - 4 Months"
-        technologies={[php.src,javascript.src,bootstrap.src,jquery.src,workbench.src]}
-    />
-    <Company
-    company="Redi for You"
-    description="Developing a network monitoring tool."
-    img={redi.src}
-    date="2021 - 4 Months"
-    technologies={[php.src,html.src,css.src,bash.src,speedtest.src]}
-/>
+<ol class="relative border-s border-gray-200 dark:border-gray-700">
+    {companies[idioma].map((company) => (
+        <Company
+          company={company.company}
+          description={company.description}
+          img={company.img}
+          date={company.date}
+          technologies={company.technologies}
+        />
+      ))}
 
 </ol>
 

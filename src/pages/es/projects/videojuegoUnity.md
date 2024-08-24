@@ -1,8 +1,8 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+layout: ../../../layouts/ProjectLayout.astro
 title: 'Unity Game'
 pubDate: 2024-07-01
-description: 'Game made as part of the Multimedia Programming and Development course.'
+description: 'Juego realizado para la asignatura de desarrollo de aplicaciones moviles en DAM.'
 author: 'Daniel Pamblanco Mestre'
 urlGit: ''
 urlDemo: ''

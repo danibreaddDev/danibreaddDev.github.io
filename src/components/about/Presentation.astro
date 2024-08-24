@@ -1,16 +1,19 @@
 ---
-
+interface Props {
+  frase: string,
+  subfrase: string,
+}
+const {frase,subfrase} = Astro.props;
 ---
 
-<section class="flex flex-col mt-32">
+<section class="flex flex-col mt-20">
   <div class="leading-loose">
   <p class="dark:text-gray-200 text-gray-700">
-    I'm <span class="font-bold">Dani</span>, 
-    Software Developer and Sys Admin.
+    {frase}
     
   </p>
   <p class="text-sm text-gray-700 dark:text-gray-200">
-    I hope you find here a bit of me. 
+    {subfrase}
   </p>
 </div>
 </section>

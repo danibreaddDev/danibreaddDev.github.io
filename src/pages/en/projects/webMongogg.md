@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ProjectLayout.astro
+layout: ../../../layouts/ProjectLayout.astro
 title: 'MongoGG Web'
 pubDate: 2024-07-01
 description: 'Web application that I made as a final project for my degree in DAM.'
