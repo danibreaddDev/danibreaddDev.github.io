@@ -1,15 +1,19 @@
 ---
-import Presentation from "../../components/about/Presentation.astro";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import Project from "../../components/Project.astro";
-import Experience from "../../components/Experience.astro";
+import Presentation from "../components/about/Presentation.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Project from "../components/Project.astro";
+import Experience from "../components/Experience.astro";
 const pageTitle = "danibreaddDev";
-const allProjects = await Astro.glob("../../pages/es/projects/*.md");
-console.log(allProjects)
+const allProjects = await Astro.glob("../pages/projects/*.md");
 ---
 
 <BaseLayout title={pageTitle}>
     <div class="container max-w-4xl flex-1">
+        <div class="flex justify-center items-center mt-20 space-x-3">
+            <a href="/" class="dark:text-neutral-200">ES</a>
+            <a href="/en" class="dark:text-neutral-200">EN</a>
+          </div>
+        
         <div class="grid items-center py-4 space-y-20">
             <Presentation frase="Soy Dani, Desarrollador de Software y Administrador de Sistemas." subfrase="Espero que encuentres una parte de mi."/>
 
@@ -17,7 +21,7 @@ console.log(allProjects)
                 <div class="flex w-full items-center justify-between">
                     <p class="dark:text-white font-bold text-xl">Proyectos</p>
                     
-                    <a href="/es/projects" class="group flex items-center gap-1 text-neutral-700 dark:text-neutral-200 decoration-dotted underline-offset-[5px] hover:underline"
+                    <a href="/projects" class="group flex items-center gap-1 text-neutral-700 dark:text-neutral-200 decoration-dotted underline-offset-[5px] hover:underline"
                         >Más
                         <svg
                             width="14"

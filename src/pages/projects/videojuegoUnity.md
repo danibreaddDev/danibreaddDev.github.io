@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ProjectLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: 'Unity Game'
 pubDate: 2024-07-01
 description: 'Juego realizado para la asignatura de desarrollo de aplicaciones moviles en DAM.'

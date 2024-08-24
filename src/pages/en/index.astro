@@ -9,7 +9,12 @@ const allProjects = await Astro.glob("../../pages/en/projects/*.md");
 ---
 
 <BaseLayout title={pageTitle}>
+    
     <div class="container max-w-4xl flex-1">
+        <div class="flex justify-center items-center mt-20 space-x-3">
+            <a href="/" class="dark:text-neutral-200">ES</a>
+            <a href="/en" class="dark:text-neutral-200">EN</a>
+          </div>
         <div class="grid items-center py-4 space-y-20">
             <Presentation  frase="I'm Dani, Software Developer and SYS Admin." subfrase="I hope you find here a bit of me."/>
 

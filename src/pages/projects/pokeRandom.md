@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ProjectLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: 'Poke-Generator'
 pubDate: 2024-07-01
 description: 'Web que genera un pokemon aleatorio con sus estadísticas a través de POKEAPI.'

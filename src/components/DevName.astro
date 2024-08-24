@@ -1,9 +1,9 @@
 ---
-import {getLangFromUrl} from "../i18n/util.js";
-const lang = getLangFromUrl(Astro.url.pathname);
----
+import {getLangFromred} from "../i18n/util.js";
+const lang = getLangFromred(Astro.url.pathname);
 
-<a href=`/${lang}`
+---
+<a href={lang ? `/${lang}` : '/'}
     class="group flex items-center sm:gap-2 p-1"
 >
     <h2

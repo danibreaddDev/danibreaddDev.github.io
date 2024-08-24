@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ProjectLayout.astro
+layout: ../../layouts/ProjectLayout.astro
 title: 'MongoGG Web'
 pubDate: 2024-07-01
 description: 'Aplicación web que realicé para visualizar estadísticas de jugadores y juegos. TFG de DAM.'
