@@ -26,12 +26,12 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
-    <p class="text-sm text-neutral-600 dark:text-neutral-300">A modern, user-friendly website to boost online visibility and customer interaction.
-    Administrators will have access to a secure control panel to create, manage, and track promotional campaigns and advertisements.</p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-300">Un sitio web moderno y fácil de usar para impulsar la visibilidad en línea y la interacción con los clientes.
+    Los administradores tendrán acceso a un panel de control seguro para crear, gestionar y realizar el seguimiento de campañas promocionales y anuncios.</p>
      <div class="flex justify-center">
     <img class="w-[300px] sm:w-[400px] lg:w-[500px] rounded hover:transition duration-75 hover:scale-105" src="/DAYNER.png"alt="portada"/>
     </div>
-    <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
+    <p class="text-lg text-neutral-700 dark:text-neutral-200">Tecnologías</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -56,7 +56,7 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
             <p class="text-sm text-neutral-500 dark:text-neutral-300">Front-end Framework.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Used for backend management of accounts, users, and game data through APIs.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">construir sitios web rápidos y optimizados. Su enfoque principal es la generación de sitios estáticos.</p>
       </div>
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
         <div class="flex flex-wrap gap-2 items-center">
@@ -80,7 +80,7 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
             <p class="text-sm text-neutral-500 dark:text-neutral-300">CSS Framework</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for Responsive design and Components.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Utilizado para diseño Responsive y Componentes.</p>
       </div>
       <!-- Tecnología 3 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -102,10 +102,10 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Funcionalities</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Funcionalidades</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for dynamic functionalities, CRUD Funcionalities.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Funcionalidades dinamicas, CRUD.</p>
       </div>
       <!-- Tecnología 3 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -130,7 +130,7 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
             <p class="text-sm text-neutral-500 dark:text-neutral-300">Back-end.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for endPoints and Autentication.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Utilizado para endPoints y Autenticación.</p>
       </div>
       <!-- Tecnología 3 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -152,10 +152,10 @@ technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Database.</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Base de Datos.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for store Promotions,Users,Sessions and News.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Almacenar Promociones,Usuarios,Sesiones y Anuncios.</p>
       </div>
     </div>
     <div class="grid items-center py-5">

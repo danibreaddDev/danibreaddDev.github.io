@@ -2,7 +2,7 @@
 layout: ../../layouts/ProjectLayout.astro
 title: 'Poke-Generator'
 pubDate: 2024-07-01
-description: 'Web que genera un pokemon aleatorio con sus estadísticas a través de POKEAPI.'
+description: 'Web que genera un pokemon aleatorio con sus estadísticas a través de pokeApi.'
 author: 'Daniel Pamblanco Mestre'
 urlGit: 'https://github.com/danibreaddDev/pokemon-Api-Random'
 urlDemo: ''
@@ -26,8 +26,8 @@ technologies: ["Bootstrap","Javascript"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
-    <p class="text-sm text-neutral-600 dark:text-neutral-300">Application that you can generate random Pokemon with fetch to PokeApi. Practising Async Functiosn and APIs with JS.</p>
-    <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-300">Aplicación que permite generar Pokemon aleatorios con fetch a PokeApi. Practicando Async Functiosn y APIs con JS.</p>
+    <p class="text-lg text-neutral-700 dark:text-neutral-200">Tecnologías</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -49,10 +49,10 @@ technologies: ["Bootstrap","Javascript"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Programing Language. Dynamic Functions</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Dynamic Functions</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Async Functions, Api Web.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Funciones Asíncronas y Web Api.</p>
       </div>
       <!-- siguiente tech -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -77,7 +77,7 @@ technologies: ["Bootstrap","Javascript"]
             <p class="text-sm text-neutral-500 dark:text-neutral-300">CSS Framework</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for Responsive design and Components.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Diseño responsive y componentes.</p>
       </div>
     </div>
 </div>

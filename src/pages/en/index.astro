@@ -2,8 +2,10 @@
 import Presentation from "../../components/about/Presentation.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Project from "../../components/Project.astro";
+import SwitchLanguage from "../../components/SwitchLanguage.astro";
 import Experience from "../../components/Experience.astro";
 const pageTitle = "danibreaddDev";
+const currentPath = Astro.url.pathname;
 
 const allProjects = await Astro.glob("../../pages/en/projects/*.md");
 ---
@@ -11,10 +13,7 @@ const allProjects = await Astro.glob("../../pages/en/projects/*.md");
 <BaseLayout title={pageTitle}>
     
     <div class="container max-w-4xl flex-1">
-        <div class="flex justify-center items-center mt-20 space-x-3">
-            <a href="/" class="dark:text-neutral-200">ES</a>
-            <a href="/en" class="dark:text-neutral-200">EN</a>
-          </div>
+        <SwitchLanguage currentPath={currentPath}/>
         <div class="grid items-center py-4 space-y-20">
             <Presentation  frase="I'm Dani, Software Developer and SYS Admin." subfrase="I hope you find here a bit of me."/>
 
@@ -59,6 +58,10 @@ const allProjects = await Astro.glob("../../pages/en/projects/*.md");
             <section class="flex flex-col gap-5">
                 <p class="dark:text-white font-bold text-xl">Experience</p>
                 <Experience idioma="en" />
+            </section>
+            <section class="flex flex-col gap-5">
+                <p class="dark:text-white font-bold text-xl">Blog</p>
+               <p class="text-xl text-center text-neutral-500 dark:text-neutral-200">Next soon...</p>
             </section>
         </div>
     </div>

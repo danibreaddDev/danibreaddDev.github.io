@@ -27,8 +27,8 @@ technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
-    <p class="text-sm text-neutral-600 dark:text-neutral-300">Web application developed as a final project for my degree in DAM. Do it for gamers to check their stats in diferents videogames and check information about games. we can save the names for next searchs.</p>
-    <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-300">Aplicación web desarrollada como proyecto final para mi licenciatura en DAM. Hacerlo para que los jugadores puedan consultar sus estadísticas en diferentes videojuegos y consultar información sobre los juegos. podemos guardar los nombres para próximas búsquedas.</p>
+    <p class="text-lg text-neutral-700 dark:text-neutral-200">Tecnologías</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -53,7 +53,7 @@ technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
             <p class="text-sm text-neutral-500 dark:text-neutral-300">PHP Framework</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Used for backend management of accounts, users, and game data through APIs.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Se utiliza para la gestión backend de cuentas, usuarios y datos de juego a través de API.</p>
       </div>
       <!-- Tecnología 2 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -76,10 +76,10 @@ technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Templates</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Plantillas</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">A templating engine used to render info about games and players in a flexible and maintainable way.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Un motor de plantillas utilizado para mostrar información sobre juegos y jugadores de forma flexible y fácil de mantener.</p>
       </div>
       <!-- Tecnología 3 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -101,10 +101,10 @@ technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Funcionalities</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Funcionalidades</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for dynamic functionalities, including AJAX requests to the backend and real-time search capabilities.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Utilizado para funcionalidades dinámicas, incluyendo peticiones AJAX al backend y capacidades de búsqueda en tiempo real.</p>
       </div>
       <!-- tech 4 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -129,14 +129,14 @@ technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
             <p class="text-sm text-neutral-500 dark:text-neutral-300">CSS Framework</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Used for Responsive design and Components.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Utilizado para diseño Responsive y Componentes.</p>
       </div>
       <!-- siguiente tech -->
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 items-center gap-10 py-5">
 
   <div class="flex flex-col space-y-3 items-center">
-  <p class="text-sm text-neutral-700 dark:text-neutral-200">User Autenticates, Sessions and Accounts Store.</p>
+  <p class="text-sm text-neutral-700 dark:text-neutral-200">Autenticaciones de usuario, sesiones y cuentas.</p>
   <video controls class="rounded">
   <source src="/autenticacion.mkv" type="video/mp4">
   </video>

@@ -27,12 +27,12 @@ technologies: ["C#","Unity"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
-    <p class="text-sm text-neutral-600 dark:text-neutral-300">I made this videogame for my mobile programming course. In it, you have to survive waves of enemies by demonstrating your capoeira skills at the carnival in your town.</p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-300">Hice este videojuego para mi curso de programación de móviles. En él, tienes que sobrevivir a oleadas de enemigos demostrando tus habilidades de capoeira en el carnaval de tu pueblo.</p>
     <div class="grid sm:grid-cols-2 items-center space-x-2">
     <img class="rounded hover:transition duration-75 hover:scale-105" src="/videojuego.png"alt="portada"/>
     <img class="rounded hover:transition duration-75 hover:scale-105" src="/videojuego2.png"alt="Contraportada"/>
     </div>
-    <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
+    <p class="text-lg text-neutral-700 dark:text-neutral-200">Tecnologías</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -54,10 +54,10 @@ technologies: ["C#","Unity"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Programing Language.</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Lenguaje de Programación.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Used for scripting game logic, manage object behaviors, and control interactions between game elements.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Se utiliza para programar la lógica del juego, gestionar los comportamientos de los objetos y controlar las interacciones entre los elementos del juego.</p>
       </div>
       <!-- Tecnología 2 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -79,10 +79,10 @@ technologies: ["C#","Unity"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Motor Engine.</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Motor gráfico.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">versatility, user-friendly interface, and a robust set of tools that make game development.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">versatilidad, interfaz fácil de usar y un sólido conjunto de herramientas para programar videojuegos.</p>
       </div>
       <!-- siguiente tech -->
     </div>

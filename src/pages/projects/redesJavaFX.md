@@ -26,8 +26,8 @@ technologies: ["Java","JavaFX","SceneBuilder"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
                 </div>
-    <p class="text-sm text-neutral-600 dark:text-neutral-300">Application that allows access to different social networks through an integrated browser. User Register and Login.</p>
-    <p class="text-lg text-neutral-700 dark:text-neutral-200">Technologies</p>
+    <p class="text-sm text-neutral-600 dark:text-neutral-300">Aplicación que permite acceder a diferentes redes sociales a través de un navegador integrado. Registro e inicio de sesión de usuario.</p>
+    <p class="text-lg text-neutral-700 dark:text-neutral-200">Tecnologías</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
     <!-- Tecnología 1 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -50,10 +50,10 @@ technologies: ["Java","JavaFX","SceneBuilder"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Programing Language.</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Lenguaje de Programación.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Used for POO, and programming funcionality.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Utilizado para POO, y funcionalidad de programación.</p>
       </div>
       <!-- siguiente tech -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
@@ -93,10 +93,10 @@ technologies: ["Java","JavaFX","SceneBuilder"]
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Interface Design.</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Diseño de Interfaces.</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Client application platform for desktop, mobile. Drag & Drop user interface design allows for rapid iteration..</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">Plataforma de aplicaciones cliente para escritorio y móvil. Arrastrar y soltar diseño de interfaz de usuario permite una rápida iteración.</p>
       </div>
     </div>
 </div>

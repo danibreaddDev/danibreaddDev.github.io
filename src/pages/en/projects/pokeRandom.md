@@ -49,7 +49,7 @@ technologies: ["Bootstrap","Javascript"]
                 stroke-linejoin="round"
                 ><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
             </div>
-            <p class="text-sm text-neutral-500 dark:text-neutral-300">Programing Language. Dynamic Functions</p>
+            <p class="text-sm text-neutral-500 dark:text-neutral-300">Dynamic Functions</p>
           </div>
         </div>
         <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200">Async Functions, Api Web.</p>
