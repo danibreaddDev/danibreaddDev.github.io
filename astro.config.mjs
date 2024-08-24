@@ -7,7 +7,10 @@ export default defineConfig({
   site: 'https://danibreadddev.github.io/',
   i18n: {
     defaultLocale: 'es',
-    locales: ['es','en'],
+    locales: ['es', 'en'],
+    routing: {
+      prefixDefaultLocale: true
+    }
   },
   integrations: [tailwind()]
 }
