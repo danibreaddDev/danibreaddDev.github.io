@@ -36,20 +36,9 @@ const lang = getLangFromUrl(Astro.url.pathname);
   <body class="min-h-screen scroll-smooth">
     <main class="relative min-h-screen flex flex-col p-5 items-center">
       <Header />
-      <div class="flex justify-center items-center mt-20">
-        <div class="relative inline-block w-20 h-10">
-          <input type="checkbox" id="toggle" class="hidden peer" />
-          <label
-            for="toggle"
-            class="flex justify-between items-center cursor-pointer w-full h-full bg-gray-300 rounded-full p-1 transition duration-500 peer-checked:bg-blue-500"
-          >
-            <span class="w-8 h-8 bg-white rounded-full shadow-md flex justify-center items-center transition duration-500 transform peer-checked:translate-x-full">
-              <img src="https://img.icons8.com/emoji/48/000000/globe-emoji.png" alt="ES" class="w-6 h-6" />
-            </span>
-            <img src="https://img.icons8.com/color/48/000000/great-britain.png" alt="EN" class="w-6 h-6 opacity-0 peer-checked:opacity-100 transition duration-500 transform -translate-x-2 peer-checked:translate-x-2" />
-            <img src="https://img.icons8.com/emoji/48/000000/spain.png" alt="ES" class="w-6 h-6 opacity-100 peer-checked:opacity-0 transition duration-500 transform translate-x-2 peer-checked:-translate-x-2" />
-          </label>
-        </div>
+      <div class="flex justify-center items-center mt-20 space-x-3">
+        <a href="/es" class="dark:text-neutral-200">ES</a>
+        <a href="/en" class="dark:text-neutral-200">EN</a>
       </div>
       
 
