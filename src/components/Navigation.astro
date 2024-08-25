@@ -3,6 +3,7 @@
 import Linkedin from "./socials/Linkedin.astro";
 import Github from "./socials/Github.astro";
 import CV from "./socials/CV.astro";
+import Mail from "./socials/Mail.astro";
 ---
 
 <nav class="flex sm:gap-3">
@@ -21,4 +22,10 @@ import CV from "./socials/CV.astro";
             <CV/>
         </a>
     </button>
+    <button class=" hover:bg-amber-300 rounded-lg p-1 hover:transition duration-300 hover:scale-125">
+        <a href="mailto:danielpamblancomestre@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Mail/>
+        </a>
+    </button>
+    
 </nav>
