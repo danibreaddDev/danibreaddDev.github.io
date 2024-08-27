@@ -4,6 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Project from "../components/Project.astro";
 import Experience from "../components/Experience.astro";
 import SwitchLanguage from "../components/SwitchLanguage.astro";
+import Disponibility from "../components/about/Disponibility.astro";
 const pageTitle = "danibreaddDev";
 const currentPath = Astro.url.pathname;
 const allProjects = await Astro.glob("../pages/projects/*.md");
@@ -12,6 +13,7 @@ const allProjects = await Astro.glob("../pages/projects/*.md");
 <BaseLayout title={pageTitle}>
     <div class="container max-w-4xl flex-1">
         <SwitchLanguage currentPath={currentPath}/>
+        <Disponibility disponibility="Disponible."/>
         
         <div class="grid items-center py-4 space-y-20">
             <Presentation frase="Soy Dani, Desarrollador de Software y Administrador de Sistemas." subfrase="Espero que encuentres una parte de mi aquí."/>
