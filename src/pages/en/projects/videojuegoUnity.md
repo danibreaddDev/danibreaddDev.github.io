@@ -7,6 +7,7 @@ author: 'Daniel Pamblanco Mestre'
 urlGit: ''
 urlDemo: ''
 technologies: ["C#","Unity"]
+featured: false
 ---
 
 <div class="grid items-center py-4 space-y-20">

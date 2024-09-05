@@ -7,6 +7,7 @@ author: 'Daniel Pamblanco Mestre'
 urlGit: 'https://github.com/danibreaddDev/pokemon-Api-Random'
 urlDemo: ''
 technologies: ["Bootstrap","Javascript"]
+featured: false
 ---
 <div class="grid items-center py-4 space-y-20">
   <div class="flex flex-col space-y-5">

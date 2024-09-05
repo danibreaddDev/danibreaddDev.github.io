@@ -8,6 +8,7 @@ import Disponibility from "../components/about/Disponibility.astro";
 const pageTitle = "danibreaddDev";
 const currentPath = Astro.url.pathname;
 const allProjects = await Astro.glob("../pages/projects/*.md");
+const selectedProjects = allProjects.filter((project) => project.frontmatter.featured);
 ---
 
 <BaseLayout title={pageTitle}>
@@ -42,7 +43,7 @@ const allProjects = await Astro.glob("../pages/projects/*.md");
                 </div>
                 <div class="grid grid-cols-1 sm:grid sm:grid-cols-2 gap-5">
                     {
-                        allProjects.map((project) => (
+                        selectedProjects.map((project) => (
                             <Project
                                 url={project.url}
                                 urlGit={project.frontmatter.urlGit}

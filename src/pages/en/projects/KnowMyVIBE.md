@@ -7,6 +7,7 @@ author: 'Daniel Pamblanco Mestre'
 urlGit: ''
 urlDemo: ''
 technologies: ["PHP","Symfony","Angular","TailwindCSS"]
+featured: true
 ---
 <img src="/knowMyVIBE.PNG" alt="Know My vibe" class="rounded">
 <div class="text-center dark:text-neutral-200 text-neutral-700 text-lg mt-10">

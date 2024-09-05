@@ -7,6 +7,7 @@ author: 'Daniel Pamblanco Mestre'
 urlGit: 'https://github.com/danibreaddDev/MongoGG'
 urlDemo: ''
 technologies: ["PHP","Symfony","Javascript","Twig","Bootstrap"]
+featured: true
 ---
 
 
