@@ -13,7 +13,7 @@ featured: true
   <div class="grid items-center py-4 space-y-20">
   <div class="flex flex-col space-y-5">
   <div class="group flex space-x-1 items-center">
-    <a class="text-xl text-neutral-700 dark:text-neutral-200 decoration-solid underline-offset-[5px] hover:underline" target="_blank">DAYNER PEDRALBA S.L WEBSITE.</a>
+    <a href="https://daynerpedralba.com/" class="text-xl text-neutral-700 dark:text-neutral-200 decoration-solid underline-offset-[5px] hover:underline" target="_blank">DAYNER PEDRALBA S.L WEBSITE.</a>
     <svg
                 width="13"
                 height="13"
