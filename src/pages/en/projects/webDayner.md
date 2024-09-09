@@ -6,7 +6,7 @@ description: 'First web application as FreeLance for the Pedralba service statio
 author: 'Daniel Pamblanco Mestre'
 urlGit: ''
 urlDemo: ''
-technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
+technologies: ["Astro","Javascript","Bootstrap"]
 featured: true
 
 ---

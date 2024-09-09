@@ -6,7 +6,7 @@ description: 'Primera Web como Freelance para la estación de servicio de Pedral
 author: 'Daniel Pamblanco Mestre'
 urlGit: ''
 urlDemo: ''
-technologies: ["Astro","Javascript","Bootstrap","Astro DB"]
+technologies: ["Astro","Javascript","Bootstrap"]
 featured: true
 
 ---

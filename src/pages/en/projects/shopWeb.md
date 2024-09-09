@@ -2,7 +2,7 @@
 layout: ../../../layouts/ProjectLayout.astro
 title: 'StreetWear Shop Design'
 pubDate: 2024-07-01
-description: 'Interactive prototype of an online shop designed to sell clothes, highlighting an attractive visual experience.'
+description: 'Prototype of an online shop designed to sell clothes, highlighting an attractive visual experience.'
 author: 'Daniel Pamblanco Mestre'
 urlGit: ''
 urlDemo: ''
