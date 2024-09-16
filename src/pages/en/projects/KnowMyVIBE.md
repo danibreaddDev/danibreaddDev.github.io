@@ -54,7 +54,7 @@ featured: true
             <p class="text-sm text-neutral-500 dark:text-neutral-300">PHP Framework</p>
           </div>
         </div>
-        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">CRUD and API.</p>
+        <p class="text-sm p-1 rounded text-neutral-700 dark:text-neutral-200 text-wrap">CRUD and API create.</p>
       </div>
       <!-- Tecnología 3 -->
       <div class="flex flex-col p-5 space-y-2 ring-1 ring-gray-300 dark:ring-neutral-700 rounded-lg hover:shadow-md transition-shadow duration-500  dark:hover:shadow-neutral-300 hover:shadow-neutral-400">
