@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Project from "../../components/Project.astro";
-const projects = await Astro.glob("./*.md");
+import projects from "../../data/projects.json"
+
 ---
 
 <BaseLayout title="Projects">
@@ -47,12 +48,10 @@ const projects = await Astro.glob("./*.md");
                     {
                         projects.map((project) => (
                             <Project
-                                url={project.url}
-                                urlGit={project.frontmatter.urlGit}
-                                urlDemo={project.frontmatter.urlDemo}
-                                title={project.frontmatter.title}
-                                description={project.frontmatter.description}
-                                technologies={project.frontmatter.technologies}
+                                urlGit={project.urlGit}
+                                title={project.title}
+                                description={project.description}
+                                technologies={project.technologies}
                             />
                         ))
                     }

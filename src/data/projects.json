@@ -1,0 +1,56 @@
+[
+    {
+        "title": "KnowMyVIBE",
+        "description": "Plataforma web diseñada para ayudarte a crear un perfil personal y conocer gente. TFG de DAW",
+        "descriptionEng":"A web platform that will help you to create a personal profile and to meet new people as a final project of DAW.",
+        "url":"",
+        "urlGit": "https://github.com/danibreaddDev/KnowMyVibe",
+        "technologies": ["Java","Python","Typescript", "TailwindCSS"],
+        "featured": true
+    },
+    {
+        "title": "DAYNER PEDRALBA S.L Web",
+        "description": "Primera Web como Freelance para la estación de servicio de Pedralba.",
+        "descriptionEng":"First web application as FreeLance for the Pedralba service station.",
+        "url":"https://daynerpedralba.com/",
+        "urlGit": "",
+        "technologies": ["Astro","Javascript","Bootstrap"],
+        "featured": true
+    },
+    {
+        "title": "MongoGG Web",
+        "description": "Aplicación web que realicé para visualizar estadísticas de jugadores y juegos. TFG de DAM.",
+        "descriptionEng":"Web application that I made as a final project for my degree in DAM.",
+        "url":"",
+        "urlGit": "https://github.com/danibreaddDev/MongoGG",
+        "technologies": ["PHP","Symfony","Javascript","Twig","Bootstrap"],
+        "featured": true
+    },
+    {
+        "title": "Twitch-QUEUE",
+        "description": "Web donde puedes buscar informacion de tus streamers favoritos y guardarlos en una cola de visualizacion.",
+        "descriptionEng":"Web where you can search for information about your favorite streamers and save them in a queue.",
+        "url":"https://twitch-queue.vercel.app/",
+        "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
+        "technologies": ["Javascript","Bootstrap"],
+        "featured": true
+    },
+    {
+        "title": "Proyecto intermodular DAW",
+        "description": "Proyecto de una tienda online tanto la parte de servicios como la web.",
+        "descriptionEng":"Project of an online store, both the services and the web part.",
+        "url":"",
+        "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
+        "technologies": ["PHP","Javascript","Bootstrap"],
+        "featured": true
+    },
+    {
+        "title": "Pokemon DayCare Game",
+        "description": "Escoge dos Pokemon y Realiza las tareas en una guarderia Pokemon. ",
+        "descriptionEng":"Perform the tasks in a Pokemon nursery.",
+        "url":"",
+        "urlGit": "https://github.com/danibreaddDev/PokemonDayCare-Game",
+        "technologies": ["Javascript","CSS"],
+        "featured": true
+    }
+]

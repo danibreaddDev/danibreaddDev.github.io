@@ -5,11 +5,11 @@ import Project from "../../components/Project.astro";
 import SwitchLanguage from "../../components/SwitchLanguage.astro";
 import Experience from "../../components/Experience.astro";
 import Disponibility from "../../components/about/Disponibility.astro";
+import projects from "../../data/projects.json"
 const pageTitle = "danibreaddDev";
 const currentPath = Astro.url.pathname;
 
-const allProjects = await Astro.glob("../../pages/en/projects/*.md");
-const selectedProjects = allProjects.filter (project => project.frontmatter.featured);
+const selectedProjects = projects.filter (project => project.featured);
 ---
 
 <BaseLayout title={pageTitle}>
@@ -46,12 +46,10 @@ const selectedProjects = allProjects.filter (project => project.frontmatter.feat
                     {
                         selectedProjects.map((project) => (
                             <Project
-                                url={project.url}
-                                urlGit={project.frontmatter.urlGit}
-                                urlDemo={project.frontmatter.urlDemo}
-                                title={project.frontmatter.title}
-                                description={project.frontmatter.description}
-                                technologies={project.frontmatter.technologies}
+                                urlGit={project.urlGit}
+                                title={project.title}
+                                description={project.descriptionEng}
+                                technologies={project.technologies}
                             />
                         ))
                     }
