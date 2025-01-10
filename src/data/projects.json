@@ -58,8 +58,8 @@
         "description": "API con laravel que devuelve clubs y sus eventos;",
         "descriptionEng":"Laravel API that returns clubs and their events.",
         "url":"",
-        "urlGit": "https://github.com/danibreaddDev/PokemonDayCare-Game",
-        "technologies": ["Laravel","PHP"],
+        "urlGit": "https://github.com/danibreaddDev/NigthLifeAPI",
+        "technologies": ["PHP","Laravel"],
         "featured": true
     }
 ]
