@@ -9,30 +9,35 @@ const { frase, subfrase } = Astro.props;
 
 <section class="flex flex-col mt-20 sm:mt-24">
   <div class="leading-loose space-y-5">
-    <div class="flex flex-wrap items-center justify-between">
-      <p class="text-xl dark:text-gray-200 text-gray-700">
+    <div class="flex flex-wrap gap-5 items-center justify-between">
+      <p class="font-normal text-lg dark:text-gray-200 text-gray-700">
         {frase}
       </p>
-      <div class="flex space-x-2 items-center">
-      <p class="text-xl dark:text-gray-200 text-gray-700">Valencia.</p>
-      <svg
-        class="size-5"
-        enable-background="new 0 0 512 512"
-        viewBox="0 0 512 512"
-        xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="m0 256c0 31.314 5.633 61.31 15.923 89.043l240.077 22.261 240.077-22.261c10.29-27.733 15.923-57.729 15.923-89.043s-5.633-61.31-15.923-89.043l-240.077-22.261-240.077 22.261c-10.29 27.733-15.923 57.729-15.923 89.043z"
-          fill="#ffda44"></path><g fill="#d80027"
+      <div class="flex gap-5 items-center">
+        <p class="font-normal text-lg dark:text-gray-200 text-gray-700">
+          Valencia.
+        </p>
+        <svg
+          class="size-5"
+          enable-background="new 0 0 512 512"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
           ><path
-            d="m496.077 166.957c-36.171-97.484-130.006-166.957-240.077-166.957s-203.906 69.473-240.077 166.957z"
-          ></path><path
-            d="m15.923 345.043c36.171 97.484 130.006 166.957 240.077 166.957s203.906-69.473 240.077-166.957z"
-          ></path></svg
+            d="m0 256c0 31.314 5.633 61.31 15.923 89.043l240.077 22.261 240.077-22.261c10.29-27.733 15.923-57.729 15.923-89.043s-5.633-61.31-15.923-89.043l-240.077-22.261-240.077 22.261c-10.29 27.733-15.923 57.729-15.923 89.043z"
+            fill="#ffda44"></path><g fill="#d80027"
+            ><path
+              d="m496.077 166.957c-36.171-97.484-130.006-166.957-240.077-166.957s-203.906 69.473-240.077 166.957z"
+            ></path><path
+              d="m15.923 345.043c36.171 97.484 130.006 166.957 240.077 166.957s203.906-69.473 240.077-166.957z"
+            ></path></g
+          >
+        </svg>
+      </div>
+      <p
+        class="text-balance text-lg font-semibold text-gray-700 dark:text-gray-200"
       >
+        {subfrase}
+      </p>
     </div>
-    </div>
-    <p class="text-sm text-gray-700 dark:text-gray-200">
-      {subfrase}
-    </p>
   </div>
 </section>
