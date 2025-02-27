@@ -1,56 +1,74 @@
 [
-    {
-        "title": "DAYNER PEDRALBA S.L Web",
-        "description": "Primera Web como Freelance para la estación de servicio de Pedralba.",
-        "descriptionEng":"First web application as FreeLance for the Pedralba service station.",
-        "url":"https://daynerpedralba.com/",
-        "urlGit": "",
-        "technologies": ["Astro","Javascript","Bootstrap"],
-        "featured": true
-    },
-    {
-        "title": "MongoGG Web",
-        "description": "Aplicación web que realicé para visualizar estadísticas de jugadores y juegos. TFG de DAM.",
-        "descriptionEng":"Web application that I made as a final project for my degree in DAM.",
-        "url":"",
-        "urlGit": "https://github.com/danibreaddDev/MongoGG",
-        "technologies": ["PHP","Symfony","Javascript","Twig","Bootstrap"],
-        "featured": true
-    },
-    {
-        "title": "Twitch-QUEUE",
-        "description": "Web donde puedes buscar informacion de tus streamers favoritos y guardarlos en una cola de visualizacion.",
-        "descriptionEng":"Web where you can search for information about your favorite streamers and save them in a queue.",
-        "url":"https://twitch-queue.vercel.app/",
-        "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
-        "technologies": ["Javascript","Bootstrap"],
-        "featured": true
-    },
-    {
-        "title": "Proyecto intermodular DAW",
-        "description": "Proyecto de una tienda online tanto la parte de servicios como la web.",
-        "descriptionEng":"Project of an online store, both the services and the web part.",
-        "url":"",
-        "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
-        "technologies": ["PHP","Javascript","Bootstrap"],
-        "featured": true
-    },
-    {
-        "title": "Pokemon DayCare Game",
-        "description": "Escoge dos Pokemon y Realiza las tareas en una guarderia Pokemon. ",
-        "descriptionEng":"Perform the tasks in a Pokemon nursery.",
-        "url":"",
-        "urlGit": "https://github.com/danibreaddDev/PokemonDayCare-Game",
-        "technologies": ["Javascript","CSS"],
-        "featured": true
-    },
-    {
-        "title": "NightLifeAPI",
-        "description": "API con laravel que devuelve clubs y sus eventos;",
-        "descriptionEng":"Laravel API that returns clubs and their events.",
-        "url":"",
-        "urlGit": "https://github.com/danibreaddDev/NigthLifeAPI",
-        "technologies": ["PHP","Laravel"],
-        "featured": true
-    }
+  {
+    "title": "DAYNER PEDRALBA S.L Web",
+    "description": "Primera Web como Freelance para la estación de servicio de Pedralba.",
+    "descriptionEng": "First web application as FreeLance for the Pedralba service station.",
+    "url": "https://daynerpedralba.com/",
+    "urlGit": "",
+    "technologies": ["Astro", "Javascript", "Bootstrap"],
+    "featured": true
+  },
+  {
+    "title": "MongoGG Web",
+    "description": "Aplicación web que realicé para visualizar estadísticas de jugadores y juegos. TFG de DAM.",
+    "descriptionEng": "Web application that I made as a final project for my degree in DAM.",
+    "url": "",
+    "urlGit": "https://github.com/danibreaddDev/MongoGG",
+    "technologies": ["PHP", "Symfony", "Javascript", "Twig", "Bootstrap"],
+    "featured": true
+  },
+  {
+    "title": "Twitch-QUEUE",
+    "description": "Web donde puedes buscar informacion de tus streamers favoritos y guardarlos en una cola de visualizacion.",
+    "descriptionEng": "Web where you can search for information about your favorite streamers and save them in a queue.",
+    "url": "https://twitch-queue.vercel.app/",
+    "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
+    "technologies": ["Javascript", "Bootstrap"],
+    "featured": true
+  },
+  {
+    "title": "Proyecto intermodular DAW",
+    "description": "Proyecto de una tienda online tanto la parte de servicios como la web.",
+    "descriptionEng": "Project of an online store, both the services and the web part.",
+    "url": "",
+    "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
+    "technologies": ["PHP", "Javascript", "Bootstrap"],
+    "featured": true
+  },
+  {
+    "title": "Pokemon DayCare Game",
+    "description": "Escoge dos Pokemon y Realiza las tareas en una guarderia Pokemon. ",
+    "descriptionEng": "Perform the tasks in a Pokemon nursery.",
+    "url": "",
+    "urlGit": "https://github.com/danibreaddDev/PokemonDayCare-Game",
+    "technologies": ["Javascript", "CSS"],
+    "featured": true
+  },
+  {
+    "title": "NightLifeAPI",
+    "description": "API con laravel que devuelve clubs y sus eventos.",
+    "descriptionEng": "Laravel API that returns clubs and their events.",
+    "url": "",
+    "urlGit": "https://github.com/danibreaddDev/NigthLifeAPI",
+    "technologies": ["PHP", "Laravel"],
+    "featured": true
+  },
+  {
+    "title": "NightLife",
+    "description": "Aplicacion web para uso de la API de NightLife.",
+    "descriptionEng": "Web application for use of NightLife API.",
+    "url": "",
+    "urlGit": "https://github.com/danibreaddDev/NightLife",
+    "technologies": ["React", "Javascript", "TailwindCSS", "Auth0"],
+    "featured": true
+  },
+  {
+    "title": "Pirueta",
+    "description": "Paginas web para una cadena de restaurantes. Proyecto final de Diseño de interfaces.",
+    "descriptionEng": "Web pages for a restaurant chain. Final project of Interface Design.",
+    "url": "",
+    "urlGit": "https://github.com/danibreaddDev/PiruetaDI",
+    "technologies": ["HTML", "SASS", "Bootstrap"],
+    "featured": true
+  }
 ]
