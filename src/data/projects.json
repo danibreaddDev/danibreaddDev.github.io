@@ -1,5 +1,14 @@
 [
   {
+    "title": "Mojeteo - Podcast Web",
+    "description": "Web para el podcast Mojeteo.",
+    "descriptionEng": "Web for podcast Mojeteo.",
+    "url": "https://mojeteo.netlify.app/",
+    "urlGit": "",
+    "technologies": ["Astro", "Javascript", "TailwindCSS"],
+    "featured": true
+  },
+  {
     "title": "DAYNER PEDRALBA S.L Web",
     "description": "Primera Web como Freelance para la estación de servicio de Pedralba.",
     "descriptionEng": "First web application as FreeLance for the Pedralba service station.",
@@ -15,7 +24,7 @@
     "url": "",
     "urlGit": "https://github.com/danibreaddDev/MongoGG",
     "technologies": ["PHP", "Symfony", "Javascript", "Twig", "Bootstrap"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "Twitch-QUEUE",
@@ -33,7 +42,7 @@
     "url": "",
     "urlGit": "https://github.com/danibreaddDev/Twitch-Queue",
     "technologies": ["PHP", "Javascript", "Bootstrap"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "Pokemon DayCare Game",
@@ -42,7 +51,7 @@
     "url": "",
     "urlGit": "https://github.com/danibreaddDev/PokemonDayCare-Game",
     "technologies": ["Javascript", "CSS"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "NightLifeAPI",
@@ -51,7 +60,7 @@
     "url": "",
     "urlGit": "https://github.com/danibreaddDev/NigthLifeAPI",
     "technologies": ["PHP", "Laravel"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "NightLife",
@@ -60,7 +69,7 @@
     "url": "",
     "urlGit": "https://github.com/danibreaddDev/NightLife",
     "technologies": ["React", "Javascript", "TailwindCSS", "Auth0"],
-    "featured": true
+    "featured": false
   },
   {
     "title": "Pirueta",
@@ -69,6 +78,6 @@
     "url": "",
     "urlGit": "https://github.com/danibreaddDev/PiruetaDI",
     "technologies": ["HTML", "SASS", "Bootstrap"],
-    "featured": true
+    "featured": false
   }
 ]
