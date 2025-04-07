@@ -1,5 +1,14 @@
 [
   {
+    "title": "Resonify",
+    "description": "Pagina web donde puedes ver un wrapp de Spotify y ver tus artistas y canciones favoritas.",
+    "descriptionEng": " Web page where you can see a Spotify wrap and see your favorite artists and songs.",
+    "url": " https://resonify.vercel.app/",
+    "urlGit": "",
+    "technologies": ["Angular", "TailwindCSS"],
+    "featured": true
+  },
+  {
     "title": "Mojeteo - Podcast Web",
     "description": "Web para el podcast Mojeteo.",
     "descriptionEng": "Web for podcast Mojeteo.",
