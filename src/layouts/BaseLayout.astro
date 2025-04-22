@@ -5,7 +5,7 @@ interface Props {
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { getLangfromhtml } from '../i18n/util.js';
+import { getLangfromhtml } from "../i18n/util.js";
 import { ViewTransitions } from "astro:transitions";
 const { title } = Astro.props;
 const lang = getLangfromhtml(Astro.url.pathname);
@@ -14,7 +14,7 @@ const lang = getLangfromhtml(Astro.url.pathname);
 <html lang={lang} transition:animate="fade">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/code.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.avif" />
     <meta name="viewport" content="width=device-width" />
     <meta
       name="description"
