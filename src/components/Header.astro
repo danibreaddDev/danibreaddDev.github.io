@@ -1,21 +1,32 @@
 ---
 import Navigation from "./Navigation.astro";
-import ThemeIcon from "./ThemeIcon.astro";
-import DevName from "./DevName.astro";
-import Mail from "./socials/Mail.astro";
+import SwitchLanguage from "./SwitchLanguage.astro";
+import Presentation from "./about/Presentation.astro";
+const currentPath = Astro.url.pathname;
+let frase = "";
+let subfrase = "";
+if (currentPath === "/") {
+  frase = "Hola soy Dani";
+  subfrase =
+    "Valenciano, coder y con ojo para el detalle (en el código y en la ropa).";
+} else {
+  frase = "Hello, I'm Dani";
+  subfrase =
+    " Valencian, coder and with an eye for detail (in code and in clothes).";
+}
 ---
 
-<header class="container fixed top-0 flex flex-wrap items-center gap-5 sm:gap-2 justify-center p-5 sm:p-10">
-    
-        <ThemeIcon />
-
-        <div
-            class="flex items-center sm:gap-5 bg-white rounded-lg ring-1 ring-neutral-800/20 dark:bg-neutral-800 shadow-lg"
-        >
-            <DevName />
-            <Navigation />
-
-           
-        </div>
+<header class="container mx-auto max-w-4xl p-2 sm:p-5 flex flex-col gap-20">
+  <div
+    class="flex flex-row justify-center flex-wrap sm:justify-between w-full gap-10 md:gap-20"
+  >
+    <Navigation />
+    <SwitchLanguage currentPath={currentPath} />
+  </div>
+  <div
+    class="flex flex-col md:flex-row gap-10 sm:gap-5 justify-center items-center"
+  >
+    <img src="/icon.webp" alt="" class="size-48 sm:size-60 md:size-96" />
+    <Presentation frase={frase} subfrase={subfrase} />
+  </div>
 </header>
-

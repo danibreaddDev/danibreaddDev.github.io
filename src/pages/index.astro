@@ -3,7 +3,7 @@ import Presentation from "../components/about/Presentation.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Project from "../components/Project.astro";
 import Experience from "../components/Experience.astro";
-import SwitchLanguage from "../components/SwitchLanguage.astro";
+
 import Disponibility from "../components/about/Disponibility.astro";
 import projects from "../data/projects.json";
 const pageTitle = "danibreaddDev";
@@ -13,13 +13,7 @@ const selectedProjects = projects.filter((project) => project.featured);
 
 <BaseLayout title={pageTitle}>
   <div class="container max-w-4xl flex-1">
-    <SwitchLanguage currentPath={currentPath} />
     <div class="grid items-center py-4 space-y-20">
-      <Presentation
-        frase="Soy Dani, Desarrollador de Software y Administrador de Sistemas."
-        subfrase="Especializándome en desarrollo Frontend."
-      />
-
       <section class="flex flex-col items-center space-y-5">
         <div class="flex w-full items-center justify-between">
           <p class="dark:text-white font-bold text-xl">Proyectos Destacados</p>

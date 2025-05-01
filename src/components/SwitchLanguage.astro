@@ -1,19 +1,21 @@
 ---
+import ThemeIcon from "./ThemeIcon.astro";
 interface Props {
-    currentPath: string,
+  currentPath: string;
 }
-const {currentPath} = Astro.props;
+const { currentPath } = Astro.props;
 ---
 
-<div class="flex justify-center items-center mt-32 sm:mt-24 space-x-6">
-    <a
-        href="/"
-        class={` dark:text-neutral-500 ${currentPath === "/" ? "bg-amber-300 dark:text-neutral-800 font-bold" : ""} p-1 rounded hover:transition duration-150 hover:scale-125`}
-        >ES</a
-    >
-    <a
-        href="/en"
-        class={` dark:text-neutral-500 ${currentPath ==="/en/" ? "bg-amber-300 dark:text-neutral-800 font-bold" : ""} p-1 rounded hover:transition duration-150 hover:scale-125`}
-        >EN</a
-    >
+<div class="flex justify-center items-center space-x-6">
+  <ThemeIcon />
+  <a
+    href="/"
+    class={` dark:text-neutral-500 ${currentPath === "/" ? "bg-amber-300 dark:text-neutral-800 font-bold" : ""} p-1 rounded hover:transition duration-150 hover:scale-125`}
+    >ES</a
+  >
+  <a
+    href="/en"
+    class={` dark:text-neutral-500 ${currentPath === "/en/" ? "bg-amber-300 dark:text-neutral-800 font-bold" : ""} p-1 rounded hover:transition duration-150 hover:scale-125`}
+    >EN</a
+  >
 </div>
