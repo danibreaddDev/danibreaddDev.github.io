@@ -5,14 +5,14 @@ import Presentation from "./about/Presentation.astro";
 const currentPath = Astro.url.pathname;
 let frase = "";
 let subfrase = "";
-if (currentPath === "/") {
-  frase = "Hola soy Dani";
-  subfrase =
-    "Valenciano, coder y con ojo para el detalle (en el código y en la ropa).";
-} else {
+if (currentPath.includes("/en")) {
   frase = "Hello, I'm Dani";
   subfrase =
     " Valencian, coder and with an eye for detail (in code and in clothes).";
+} else {
+  frase = "Hola soy Dani";
+  subfrase =
+    "Valenciano, coder y con ojo para el detalle (en el código y en la ropa).";
 }
 ---
 
